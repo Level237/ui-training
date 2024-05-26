@@ -7,8 +7,8 @@ import {motion,animate,useMotionValue} from "framer-motion"
 export default function InfiniteCarousel() {
 
     const images=[
-        "/img1.jpg",
-        "/img2.jpg",
+        "/img1.webp",
+        "/img2.webp",
         "/img3.jpg",
         "/img4.jpg",
         "/img5.png",

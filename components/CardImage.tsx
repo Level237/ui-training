@@ -37,7 +37,7 @@ export default function CardImage(props:any) {
            
         >
             <div className='absolute bg-black pointer-events-none opacity-50 h-full w-full'></div>
-            <motion.h1 className='bg-black font-secondary font-semibold text-sm z-10 px-3 py-2 rounded-full flex items-center gap-[0.5ch] hover:opacity-75'
+            <motion.h1 className='bg-black text-white font-secondary font-semibold text-sm z-10 px-3 py-2 rounded-full flex items-center gap-[0.5ch] hover:opacity-75'
             initial={{ 
                 y:100
              }}

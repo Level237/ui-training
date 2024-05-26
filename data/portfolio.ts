@@ -6,11 +6,11 @@ export const Portfolios:PortfolioType[]=[{
     target:2,
 },{
     id:2,
-    img:'/img2.jpg',
+    img:'/img2.webp',
     target:2,
 },{
     id:3,
-    img:'/img3.jpg',
+    img:'/img1.webp',
     target:3,
 },
 {
@@ -26,5 +26,6 @@ export const Portfolios:PortfolioType[]=[{
     img:'/img6.jpg',
     target:4,
 }
+
 
 ]
