@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body style={{ background:"url('bg.svg')",backgroundRepeat:"no-repeat",backgroundSize:"cover" }} className="">{children}</body>
+      <body style={{ background:"url('bg.svg')",backgroundRepeat:"no-repeat",backgroundSize:"cover" }} className="overflow-x-hidden">{children}</body>
     </html>
   );
 }

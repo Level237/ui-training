@@ -3,6 +3,7 @@ import AnimatedTabs from "@/components/AnimatedTab";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import PortfolioCard from "@/components/Portfolio-Card";
+import PortfolioAnimate from "@/components/PortfolioAnimate";
 import { tabStore } from "@/store/TabStore";
 import { AnimatePresence, motion } from 'framer-motion';
 
@@ -32,6 +33,9 @@ export default function Home() {
           </AnimatePresence>
          
         </div>
+     <section className="flex items-center justify-center">
+
+     </section>
     </>
   )
 }
